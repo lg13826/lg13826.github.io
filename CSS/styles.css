@@ -178,12 +178,6 @@ nav {
 /*****************
     INTRO TITLE
 ******************/
-.intro-container {
-  height: 100vh;
-  width: 100%;
-  background-image: url(../Images/buildings.jpg);
-  background-size: cover;
-}
 
 .overlay {
   height: 100%;
@@ -232,13 +226,6 @@ nav {
 .about-text {
   width: 832px;
   height: 477px;
-}
-
-.justin-bui-img {
-  margin-top: 100px;
-  width: 442px;
-  height: 600px;
-  clip-path: circle(at 50% 30%);
 }
 
 /*******************
