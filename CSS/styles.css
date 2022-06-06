@@ -213,6 +213,8 @@ nav {
 .about-flexbox {
   display: flex;
   justify-content: space-around; /*putting space around 2 items in the flexbox*/
+  background-color: rgba(48, 42, 42, 0.3);
+  margin-top: 50px;
 }
 
 .about-link {
@@ -226,6 +228,14 @@ nav {
 .about-text {
   width: 832px;
   height: 477px;
+}
+
+.luciano-gibertoni-img {
+  width: 300px;
+  height: 300px;
+  margin-left: 500px;
+  margin-top: 200px;
+  box-shadow: 0 0 15px #05ff00;
 }
 
 /*******************
@@ -249,9 +259,13 @@ nav {
 
 .ratings-container {
   width: 591px;
+  height: 580px;
   margin: 24px;
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.475);
   margin-bottom: 130px;
+}
+
+.other {
 }
 
 .programming-languages {
@@ -259,18 +273,16 @@ nav {
 }
 
 /*styling my ratings of each skill*/
-.all-skills li {
-  margin: 20px;
+.all-skills {
+  margin: 10px;
 }
 
 .bar {
   display: block;
-  background-color: #272626;
-  height: 2px;
-  width: 360px;
+  height: 150px;
+  width: 150px;
   margin: 15px;
   box-shadow: 0 0 9px #05ff00;
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .skill {
@@ -279,49 +291,107 @@ nav {
   background: #05ff00;
 }
 
+.CPP {
+  display: block;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#a0a0a0;
+  line-height: 330px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/c++.jpg");
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .Python {
-  width: 60%;
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 220px;
+  margin-top: -160px;
+  box-shadow: 0 0 15px #05ff00;
+  background-color: rgba(128, 128, 128, 0.326);
+  background-image: url("../Images/python.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .C {
-  width: 70%;
-}
-
-.CPP {
-  width: 80%;
-}
-
-.NASM {
-  width: 40%;
-}
-
-.HTML5 {
-  width: 35%;
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 430px;
+  margin-top: -150px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/c.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .CSS {
-  width: 29%;
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/css.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
-.JavaScript {
-  width: 29%;
+.HTML {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 220px;
+  margin-top: -150px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/html.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.Debugging {
-  width: 73%;
+.Java {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 430px;
+  margin-top: -150px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/java.jpg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.Linux-Commands {
-  width: 48%;
+.sql {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: 220px;
+  margin-top: 30px;
+  background-color: rgba(128, 128, 128, 0.326);
+  box-shadow: 0 0 15px #05ff00;
+  background-image: url("../Images/sql.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.OpenCV {
-  width: 50%;
-}
-
-.MediaPipe {
-  width: 25%;
-}
 
 /********************
   PROJECTS
@@ -379,7 +449,7 @@ nav {
 }
 
 .card-2 {
-  background-image: url("../Images/GeeksSay.png");
+  background-image: url("../Images/video-game-controller.jpg");
   background-size: cover;
 }
 
@@ -390,11 +460,6 @@ nav {
 
 .card-4 {
   background-image: url("../Images/binary.jpg");
-  background-size: cover;
-}
-
-.card-5 {
-  background-image: url("../Images/RPS.png");
   background-size: cover;
 }
 
